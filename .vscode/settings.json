@@ -1,0 +1,23 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#e15e52",
+    "activityBar.activeBorder": "#5ce367",
+    "activityBar.background": "#e15e52",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#5ce367",
+    "activityBarBadge.foreground": "#15202b",
+    "sash.hoverBorder": "#e15e52",
+    "statusBar.background": "#da3526",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#e15e52",
+    "statusBarItem.remoteBackground": "#da3526",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#da3526",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#da352699",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#da3526",
+  "cSpell.words": ["Pressable"]
+}
