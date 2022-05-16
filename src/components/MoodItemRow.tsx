@@ -5,7 +5,7 @@ import { MoodOptionWithTimestamp } from '../types';
 import { theme } from '../theme';
 
 type MoodItemRowProps = {
-  item: MoodOptionWithTimestamp,
+  item: MoodOptionWithTimestamp;
 };
 
 export const MoodItemRow: React.FC<MoodItemRowProps> = ({ item }) => {
@@ -31,6 +31,7 @@ const styles = StyleSheet.create({
   moodDate: {
     textAlign: 'center',
     color: theme.colorLavender,
+    fontFamily: theme.fontFamilyRegular,
   },
   moodItem: {
     backgroundColor: 'white',
@@ -42,8 +43,8 @@ const styles = StyleSheet.create({
   },
   moodDescription: {
     fontSize: 18,
+    fontFamily: theme.fontFamilyBold,
     color: theme.colorPurple,
-    fontWeight: 'bold',
   },
   iconAndDescription: {
     flexDirection: 'row',
