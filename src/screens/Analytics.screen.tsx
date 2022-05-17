@@ -1,6 +1,6 @@
 import React from 'react';
 import { groupBy } from 'lodash';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { useAppContext } from '../App.provider';
 import { VictoryPie } from 'victory-native';
 import { theme } from '../theme';
